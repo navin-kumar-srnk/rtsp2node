@@ -1,5 +1,5 @@
 {
-  "name": "rtsp2web",
+  "name": "rtsp2hls",
   "version": "1.0.0",
   "description": "Stream rtsp in browser",
   "main": "main.js",
@@ -7,5 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Naveen kumar s",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+  }
 }
