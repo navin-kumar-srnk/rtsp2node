@@ -1,6 +1,6 @@
 {
   "name": "rtsp2hls",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Stream rtsp in browser",
   "main": "main.js",
   "scripts": {
@@ -8,6 +8,5 @@
   },
   "author": "Naveen kumar s",
   "license": "ISC",
-  "dependencies": {
-  }
+  "dependencies": {}
 }
