@@ -64,9 +64,9 @@ return resolve({status:false,message:'feedname alredy present'})
     
   });
 
+  let dateTime=new Date()
 
-
-   addFeed(name,inputSource,process)
+   addFeed(name,inputSource,process,dateTime)
 
   return resolve ({status:true,message:'Feed Added'})
 
@@ -93,5 +93,11 @@ function stopFfmpeg(name) {
 }
 
 
+
+startFfmpeg('test','rtsp://:8554/')
+
+setTimeout(() => {
+  stopFfmpeg('test')
+}, 5000);
 
 module.exports={startFfmpeg,stopFfmpeg,getAllfeeds}

@@ -23,10 +23,10 @@ function removeFeed(name){
 }
 
 
-const addFeed=(streamName,rtspUrl,process)=>{
+const addFeed=(streamName,rtspUrl,process,date)=>{
     console.log('!!!!!!!!!!!!!!!!!!!!!');
     let streams=readFile()
-    streams.push({['streamName']:streamName,"rtspUrl":rtspUrl,"processName":process})
+    streams.push({['streamName']:streamName,"rtspUrl":rtspUrl,"processName":process,date})
     writeToFile(streams)
 
 }
