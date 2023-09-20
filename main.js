@@ -94,10 +94,5 @@ function stopFfmpeg(name) {
 
 
 
-startFfmpeg('test','rtsp://:8554/')
-
-setTimeout(() => {
-  stopFfmpeg('test')
-}, 5000);
 
 module.exports={startFfmpeg,stopFfmpeg,getAllfeeds}

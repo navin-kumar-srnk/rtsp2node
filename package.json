@@ -1,6 +1,6 @@
 {
   "name": "rtsp2hls",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Stream rtsp in browser",
   "main": "main.js",
   "scripts": {
